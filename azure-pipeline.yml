@@ -14,10 +14,8 @@ resources:
     name: bamboox2go/ADF-Devops
     ref: adf_publish
     trigger:  # CI trigger for this repository, no CI trigger if skipped (only works for Azure Repos)
-      branches: 
-        include:
-        - adf_publish
-        - adf_poc
+      - adf_publish
+      - adf_poc
 
 pool:
   vmImage: 'Ubuntu-16.04'
