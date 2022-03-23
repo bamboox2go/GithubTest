@@ -5,7 +5,7 @@
 
 trigger:
 - master
-
+- adf_publish
 resources:
   repositories:
   - repository: bamboox2go_ADF-Devops
