@@ -8,7 +8,7 @@ trigger:
 
 resources:
   repositories:
-  - repository: adf_project
+  - repository: bamboox2go_ADF-Devops
     type: github
     endpoint: bamboox2go
     name: bamboox2go/ADF-Devops
